@@ -7,9 +7,9 @@ import os
 from urllib.parse import urlparse
 from decouple import config
 
-access_token = config('ACCESS_TOKEN')
-auth_token = config('AUTH_TOKEN')
-x-dd-token = config('X-DD-TOKEN')
+access_token = #place your value
+auth_token = #place your value
+x-dd-token = #place your value
 
 # Read the URLs from show_urls.txt
 with open("show_urls.txt", "r") as file:
