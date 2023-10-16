@@ -14,9 +14,9 @@ import urllib.parse
 from decouple import config
 import jwt
 
-access_token = config('ACCESS_TOKEN')
-auth_token = config('AUTH_TOKEN')
-x-dd-token = config('X-DD-TOKEN')
+access_token = "#place your value"
+auth_token = " #place your value"
+x-dd-token = " #place your value"
 
 decoded = jwt.decode(auth_token, options={"verify_signature": False})
 deviceId = decoded['device_id']
