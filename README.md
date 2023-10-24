@@ -55,3 +55,5 @@ zeeimprov.py will bulk download 1080p shows and zee4k will do the same for 4k su
 Authorization token, x-access-token and x-dd-token expire after some time, you can grab a fresh pair as seen below:
 https://spapi.zee5.com/singlePlayback/v2/displayAds?state=UT&country=IN&platform_name=desktop_web&user_type=free.....
 
+if you need latest shows that has mpd that starts with: v2-prime then use zee5latestdownloader.py 
+for paid series use zee5seriesscraper.py
